@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #D8B250, #CF7C3F);
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+    background: linear-gradient(to right, #D8B250, #CF7C3F);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.produtos {
+    text-align: center;
+    padding: 20px;
+}
+
+.produtos-descricao {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.produto-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.produto-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.produto-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto-nome {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.produto-price {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.botao-comprar {
+    background: green;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produto-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.estrela-avaliacao {
+    color: orange;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.bottom {
+    background-color: #909090;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.bottom p {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.logo-svg {
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
+span {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left,
+.right {
+    flex: 1;
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+    padding: 20px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    background-image: url('../images/dogsfundo2.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-right: 10%;
+    padding-top: 20%;
+}
+
+p {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button {
+    color: #FFF;
+    font-size: 24px;
+    width: 345px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #CA5252 11.14%, #D8B250 103.61%);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bottom {
+    background-color: #909090;
+    width: 100%;
+    margin-top: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+.form-container {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-container h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group label.checkbox-label {
+    display: inline;
+    margin-right: 10px;
+    color: #555;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-group button {
+    background: green;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right-column {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.address-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.address {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.servicos {
+    text-align: center;
+    padding: 20px;
+}
+
+.servicos-descricao {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.servico-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.servico-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.servico-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.servico-nome {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.servico-price {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.servico-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
